@@ -5,7 +5,7 @@ int main()
 {
 	String greeting("Hello, World!");
 	greeting.WriteToConsole();
-	std::cout << std::endl;
+	std::cout << '\n';
 
 	return 0;
 }

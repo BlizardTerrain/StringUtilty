@@ -49,10 +49,7 @@ char& String::CharacterAt(size_t _index)
 		static char nullChar = '\0';
 		return nullChar;
 	}
-	else
-	{
-		return m_string[_index];
-	}
+	return m_string[_index];
 }
 
 // Returns true if str contains the same characters.
