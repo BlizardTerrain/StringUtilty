@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD4E1A0-19D7-40D4-85A5-4AB3479FE4D7}|StringUtilty.vcxproj|C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\StringUtilty.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1FD4E1A0-19D7-40D4-85A5-4AB3479FE4D7}|StringUtilty.vcxproj|solutionrelative:StringUtilty.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD4E1A0-19D7-40D4-85A5-4AB3479FE4D7}|StringUtilty.vcxproj|C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\String.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1FD4E1A0-19D7-40D4-85A5-4AB3479FE4D7}|StringUtilty.vcxproj|solutionrelative:String.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD4E1A0-19D7-40D4-85A5-4AB3479FE4D7}|StringUtilty.vcxproj|C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\String.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1FD4E1A0-19D7-40D4-85A5-4AB3479FE4D7}|StringUtilty.vcxproj|solutionrelative:String.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "String.cpp",
+              "DocumentMoniker": "C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\String.cpp",
+              "RelativeDocumentMoniker": "String.cpp",
+              "ToolTip": "C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\String.cpp",
+              "RelativeToolTip": "String.cpp",
+              "ViewState": "AQIAAMEAAAAAAAAAAAAmwNkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-06T00:26:55.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StringUtilty.cpp",
+              "DocumentMoniker": "C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\StringUtilty.cpp",
+              "RelativeDocumentMoniker": "StringUtilty.cpp",
+              "ToolTip": "C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\StringUtilty.cpp",
+              "RelativeToolTip": "StringUtilty.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-06T00:26:55.71Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "String.h",
+              "DocumentMoniker": "C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\String.h",
+              "RelativeDocumentMoniker": "String.h",
+              "ToolTip": "C:\\Users\\domis.DOMPC\\Documents\\StringUtilty\\String.h",
+              "RelativeToolTip": "String.h",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-06T00:26:55.842Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
