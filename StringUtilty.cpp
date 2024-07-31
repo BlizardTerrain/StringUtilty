@@ -5,11 +5,6 @@ using namespace std;
 
 int main()
 {
-
-	// CStr Function
-	String emptyString;
-	cout << "CStr: " << emptyString.CStr() << '\n';
-
 	//
 	String greeting("Hello, World!");
 	greeting.WriteToConsole();
@@ -79,36 +74,7 @@ int main()
     inputString.WriteToConsole();
     cout << '\n';
 
+	system("PAUSE");
+
 	return 0;
-
-	/*
-    // Operator == Function
-    if (greeting == String("Hello, World!"))
-    {
-        cout << "Operator == Function: True" << '\n';
-    }
-    else
-    {
-        cout << "Operator == Function: False" << '\n';
-    }
-
-    // Operator [] Function
-    cout << "Operator [] Function: Character at position 4 is " << greeting[4] << '\n';
-
-    // Operator = Function
-    String assignment;
-    assignment = greeting;
-    cout << "Operator = Function: " << assignment.CStr() << '\n';
-
-    // Operator != Function
-    if (greeting != String("Hello, Universe!"))
-    {
-        cout << "Operator != Function: True" << '\n';
-    }
-    else
-    {
-        cout << "Operator != Function: False" << '\n';
-    }
-	*/
-
 }
