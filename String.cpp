@@ -138,17 +138,55 @@ size_t String::Find(size_t _startIndex, const String& _str)
 // Replaces all occurrences of findString with replaceString
 String& String::Replace(const String& _find, const String& _replace)
 {
+	size_t findLen = _find.Length();
+	size_t replaceLen = _replace.Length();
+	size_t diff = replaceLen - findLen;
+
+	// Calculate the new length of the string
+	size_t count = 0;
 	size_t pos = Find(_find);
 	while (pos != -1)
 	{
-		// replace at pos
-		for (size_t i = pos; i < pos + _find.m_length; ++i)
-		{
-			m_string[i] = _replace.m_string[i - pos];
-		}
-		// continue searching from the end of the replacement
-		pos = Find(pos + _replace.m_length, _find);
+		++count;
+		pos = Find(pos + findLen, _find);
 	}
+
+	size_t newLength = m_length + (diff * count);
+	char* newString = new char[newLength + 1];
+
+	size_t srcIndex = 0;
+	size_t destIndex = 0;
+	pos = Find(_find);
+	while (pos != -1)
+	{
+		// Copy up to the found string
+		while (srcIndex < pos)
+		{
+			newString[destIndex++] = m_string[srcIndex++];
+		}
+		// Copy the replacement string
+		for (size_t i = 0; i < replaceLen; ++i)
+		{
+			newString[destIndex++] = _replace.m_string[i];
+		}
+		// Skip the found string
+		srcIndex += findLen;
+		// Find the next occurrence
+		pos = Find(srcIndex, _find);
+	}
+
+	// Copy the rest of the original string
+	while (srcIndex < m_length)
+	{
+		newString[destIndex++] = m_string[srcIndex++];
+	}
+
+	newString[newLength] = '\0';
+
+	delete[] m_string;
+	m_string = newString;
+	m_length = newLength;
+
 	return *this;
 }
 

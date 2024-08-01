@@ -1,0 +1,66 @@
+Date: 2024/8/1 Time: 12:23:31 
+Test 0 Length Successful
+Test 1 CharacterAt Successful
+Test 2 EqualTo Successful
+Test 3 Append Successful
+Test 4 Append Successful
+Test 5 ToLower Successful
+Test 6 ToUpper Successful
+Test 7 Find Successful
+Test 8 Replace Successful
+Test 9 ReadFromConsole/WriteToConsole Successful
+Successful 100.00%
+
+Date: 2024/8/1 Time: 12:23:47 
+Test 0 Length Successful
+Test 1 CharacterAt Successful
+Test 2 EqualTo Successful
+Test 3 Append Successful
+Test 4 Append Successful
+Test 5 ToLower Successful
+Test 6 ToUpper Successful
+Test 7 Find Successful
+Test 8 Replace Successful
+Test 9 ReadFromConsole/WriteToConsole Successful
+Successful 100.00%
+
+Date: 2024/8/1 Time: 12:25:28 
+Test 0 Length Successful
+Test 1 CharacterAt Successful
+Test 2 EqualTo Successful
+Test 3 Append Successful
+Test 4 Append Successful
+Test 5 ToLower Successful
+Test 6 ToUpper Successful
+Test 7 Find Successful
+Test 8 Replace Successful
+Test 9 ReadFromConsole/WriteToConsole Successful
+Successful 100.00%
+
+Date: 19018/124/ Time: 12:27:00 
+Test 0 Length Successful
+Test 1 CharacterAt Successful
+Test 2 EqualTo Successful
+Test 3 Append Successful
+Test 4 Append Successful
+Test 5 ToLower Successful
+Test 6 ToUpper Successful
+Test 7 Find Successful
+Test 8 Replace Successful
+Test 9 ReadFromConsole/WriteToConsole Successful
+Successful 100.00%
+
+Date: 2024/8/1 Time: 12:30:04 
+Date: 1/8/2024 Time: 12:30:04 
+Test 0 Length Successful
+Test 1 CharacterAt Successful
+Test 2 EqualTo Successful
+Test 3 Append Successful
+Test 4 Append Successful
+Test 5 ToLower Successful
+Test 6 ToUpper Successful
+Test 7 Find Successful
+Test 8 Replace Successful
+Test 9 ReadFromConsole/WriteToConsole Successful
+Successful 100.00%
+
